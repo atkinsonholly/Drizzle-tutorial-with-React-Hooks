@@ -1,5 +1,4 @@
 import React, { useState, useEffect, Fragment } from 'react'
-import './App.css';
 import ReadString from "./ReadString";
 import SetString from "./SetString";
 

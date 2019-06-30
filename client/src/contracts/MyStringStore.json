@@ -426,12 +426,12 @@
     "4447": {
       "events": {},
       "links": {},
-      "address": "0xf3A1c5539962c1F282d9d7505E2d5938140Ef78a",
-      "transactionHash": "0x8227fbb5d5b3fc07967cd2e6e2ebb217069190681fba97eed4fab88cbd65c251"
+      "address": "0x840493F9FF733f88ACc71aa3CA07741e6A8B9e0F",
+      "transactionHash": "0x306c80395e4764827edd51de7c7019b6603a1a216cba8ff8ca0604d95adfb91f"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2019-06-17T20:39:26.885Z",
+  "updatedAt": "2019-06-30T12:34:32.846Z",
   "devdoc": {
     "methods": {}
   },
