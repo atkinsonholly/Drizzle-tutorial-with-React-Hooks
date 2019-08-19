@@ -2,7 +2,7 @@
 
 ![drizzle_logo](https://github.com/trufflesuite/drizzle/raw/master/readme/drizzle-logomark.png?raw=true)
 
-I created a **React Hooks** version of this [**Drizzle tutorial**](https://www.trufflesuite.com/tutorials/getting-started-with-drizzle-and-react).
+I created a complete **React Hooks** version of this [**Drizzle tutorial**](https://www.trufflesuite.com/tutorials/getting-started-with-drizzle-and-react).
 
 ![DApp demo](https://media.giphy.com/media/TdQVda1SmPNaU2gN4J/giphy.gif)
 
@@ -10,7 +10,20 @@ You will need to install Node.js and Truffle, as stated in the tutorial - see "S
 
 See the ReactJS [guidance on using hooks](https://reactjs.org/docs/hooks-reference.html) and [Drizzle](https://www.trufflesuite.com/drizzle) for further details on implementing hooks in your project.
 
-## To run your project after unboxing ##
+## To get this box ##
+
+1. Create a new directory. 
+
+2. In the new directory, run ```truffle unbox atkinsonholly/Drizzle-tutorial-with-React-Hooks```. This should pull the box contents to the new local directory.
+
+## After unboxing ##
+
+In the client directory:
+
+```
+npm install
+```
+
 
 In the main project directory:
 
@@ -18,7 +31,7 @@ In the main project directory:
 truffle develop
 ```
 
-Then, in truffle's developer console: 
+Then, in the Truffle developer console: 
 ```
 compile
 ```
@@ -52,3 +65,8 @@ You can test your DApp by entering the following:
 ```
 npm test
 ```
+
+## Troubleshooting ##
+
+You may need to install Xcode to use this box on macOS, see [node-gyp](https://github.com/nodejs/node-gyp) on Github. 
+The following command may be useful if you encounter issues with this: ```xcode-select - install```.
