@@ -69,4 +69,4 @@ npm test
 ## Troubleshooting ##
 
 You may need to install Xcode to use this box on macOS, see [node-gyp](https://github.com/nodejs/node-gyp) on Github. 
-The following command may be useful if you encounter issues with this: ```xcode-select - install```.
+The following command may be useful if you encounter issues with this: ```xcode-select --install```.
